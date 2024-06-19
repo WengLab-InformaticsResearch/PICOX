@@ -4,7 +4,7 @@ This project aims to identify PICO entities from RCT publications. Jupyter Noteb
 
 Before running the pipeline, please create a `data` folder under the root and set up the folder to keep input files (including both raw and processed data) and model checkpoints. Please read the beginning of each source file as an example.
 
-This project is released under MIT license. Please feel free to cite "[A span-based model for extracting overlapping PICO entities from randomized controlled trial publications]([url](https://pubmed.ncbi.nlm.nih.gov/38471120/))" if you find this project helpful.
+This project is released under MIT license. Please feel free to cite "A span-based model for extracting overlapping PICO entities from randomized controlled trial publications" (https://pubmed.ncbi.nlm.nih.gov/38471120/) if you find this project helpful.
 
 >Copyright 2024 WengLab
 >
