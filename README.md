@@ -1,6 +1,8 @@
 # PicoExtractor
 
-This project aims to identify PICO entities from RCT publications. Jupyter Notebook is needed `pip install jupyterlab` (see https://jupyter.org/install for details). The root directory contains source files of the pipeline and a folder containing datasets used in the study. The pipeline starts with preprocessing (step 0) that converts bioc format to jsonl. Next, the boundary detector and span classifier modules are trained (step 1 and step 2). After training, the model can be used for inference, see source files at step 3. At last, an example of usage is provided at step 4. The data folder contains raw data from EBM-NLP (see details in preprocessing notebooks). The data directory contains input files (including both raw and processed data) as well as model checkpoints. Please read the beginning of each source file and set up the folder accordingly.
+This project aims to identify PICO entities from RCT publications. Jupyter Notebook is needed `pip install jupyterlab` (see https://jupyter.org/install for details). The root directory contains source files of the pipeline and a folder containing datasets used in the study. The pipeline starts with preprocessing that converts bioc format to jsonl. Next, the boundary detector and span classifier modules are trained. After training, the model can be used for inference, see source files. At last, an example of usage is provided. 
+
+Before running the pipeline, please create a `data` folder under the root and set up the folder to keep input files (including both raw and processed data) and model checkpoints. Please read the beginning of each source file as an example.
 
 This project is released under MIT license. Please feel free to cite "[A span-based model for extracting overlapping PICO entities from randomized controlled trial publications]([url](https://pubmed.ncbi.nlm.nih.gov/38471120/))" if you find this project helpful.
 
